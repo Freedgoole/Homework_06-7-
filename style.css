@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    margin: 10px auto;
+    height: 200px;
+    width: 400px;
+    background: black;
+}
+.conteiner:before {
+        content: '';
+        position: absolute;
+    top: 66px;
+    left: 514px;
+    	border: 44px solid transparent;	
+        border-right: 83px solid black;
+}
